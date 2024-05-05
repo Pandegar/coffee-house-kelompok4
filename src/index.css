@@ -420,17 +420,11 @@ body {
 
 .menu .add a {
   height: 3rem;
-  width: 3rem;
+  width: 5rem;
   color: #fff;
-  border: 1px solid white;
-  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.menu .add a:hover {
-  background-color: var(--primary);
 }
 
 .feather-16 {

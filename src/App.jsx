@@ -186,7 +186,7 @@ function App() {
             <p className="menu-card-price">IDR 15K</p>
             <div className="add">
               <a href="">
-                <i className="feather-16" data-feather="shopping-cart"></i>
+                <button>Buy Now</button>
               </a>
             </div>
           </div>
@@ -200,7 +200,7 @@ function App() {
             <p className="menu-card-price">IDR 18K</p>
             <div className="add">
               <a href="">
-                <i className="feather-16" data-feather="shopping-cart"></i>
+               <button>Buy Now</button>
               </a>
             </div>
           </div>
@@ -214,7 +214,7 @@ function App() {
             <p className="menu-card-price">IDR 25K</p>
             <div className="add">
               <a href="">
-                <i className="feather-16" data-feather="shopping-cart"></i>
+                <button>Buy Now</button>
               </a>
             </div>
           </div>
@@ -228,7 +228,7 @@ function App() {
             <p className="menu-card-price">IDR 22K</p>
             <div className="add">
               <a href="">
-                <i className="feather-16" data-feather="shopping-cart"></i>
+                <button>Buy Now</button>
               </a>
             </div>
           </div>
@@ -242,7 +242,7 @@ function App() {
             <p className="menu-card-price">IDR 20K</p>
             <div className="add">
               <a href="">
-                <i className="feather-16" data-feather="shopping-cart"></i>
+                <button>Buy Now</button>
               </a>
             </div>
           </div>
@@ -256,7 +256,7 @@ function App() {
             <p className="menu-card-price">IDR 21K</p>
             <div className="add">
               <a href="">
-                <i className="feather-16" data-feather="shopping-cart"></i>
+                <button>Buy Now</button>
               </a>
             </div>
           </div>
@@ -284,12 +284,13 @@ function App() {
       <div className="row" data-aos="zoom-in" data-aos-duration="1500">
 
       <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253840.65639022697!2d106.66470106402271!3d-6.229379586946628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sJakarta%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1710926259326!5m2!1sid!2sid"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          class="map"
-        ></iframe>
+         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253840.65638901212!2d106.66470211896373!3d-6.229379589458796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sJakarta!5e0!3m2!1sen!2sid!4v1714914601481!5m2!1sen!2sid" 
+         width="600" 
+         height="450" 
+         allowfullscreen="" 
+         loading="lazy" 
+         referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
 
         <form action="">
           <div className="input-grup">
